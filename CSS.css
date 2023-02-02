@@ -1,0 +1,54 @@
+
+body{
+    background-color : #FFE4C4;
+    color:grey;
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-family : Verdana;
+  }
+  .avatar{
+    width:300px;
+    border-radius:20px;
+    box-shadow: 5px 5px 20px #30d5c8/*берюзовый*/; 
+  }
+  .info p{
+    color: #30d5c8/*берюзовый*/;
+    margin: 0;
+    font-style: italic;
+    font-weight : bold;
+    text-decoration: none;
+   /* text-transform: underline;*/
+   /* letter-spacing: 5PX;*/
+   /* WORD-SPACING: 5px;*/
+  }
+  
+  /*boxmodel*/
+  .card.li {
+    padding-bottom: 5px;;
+  }
+  .container{
+    max-width: 750px;
+    margin:  auto;
+  }
+  .social{
+    background: red;
+    padding: 15px 20px 25px 30px;
+    border:15px dotted #30d5c8/*берюзовый*/;
+    margin: 20px ;
+    text-align: center;
+  }
+  
+  a{
+    color:rgb(182, 18, 18);
+    text-decoration:none;
+  }
+  a:hover{
+     text-decoration:underline;
+  }
+  a:active {
+    color:rgb(184, 184, 82);
+  }
+  a:visited {
+    color:rgb(0, 0, 255);
+  }
